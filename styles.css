@@ -1,0 +1,140 @@
+body {
+    background-image: url(https://futureskillsprime.in/sites/default/files/inline-images/iStock-966248982.jpg);
+    background-size: cover;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #78a6cc;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #ffd700;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #ffd700;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Form styling */
+.form {
+    margin-top: 30px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    background-color: #9ba6ab;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Input and Select Styling */
+.form-control {
+    border-radius: 8px;
+}
+
+.form-select {
+    border-radius: 8px;
+}
+
+textarea.form-control {
+    border-radius: 8px;
+}
+
+/* Button Styling */
+.btn {
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer h4 {
+    margin: 0;
+    background-color: #9ba6ab;
+}
+
+/* Alert Styling */
+.alert {
+    margin-top: 20px;
+}
+
+.alert-info {
+    background-color: #cce5ff;
+}
+
+.alert-link {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.alert-link:hover {
+    color: #003366;
+}
+
+/* Checkbox and Radio button styling */
+.form-check-label {
+    font-weight: normal;
+}
+
+.form-check-input {
+    margin-left: 10px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .navbar-toggler-icon {
+        background-color: #007bff;
+    }
+
+    .card {
+        margin: 10px;
+    }
+    
+    .container {
+        padding: 0 10px;
+    }
+}
